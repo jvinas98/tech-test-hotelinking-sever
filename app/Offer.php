@@ -14,7 +14,8 @@ class Offer extends Model
         'price',
     ];
 
-    public function users(){
-        return  $this->belongsToMany(User::class, 'offer_user')->withPivot('code', 'activate');
+    public function users()
+    {
+        return $this->hasMany(OfferUser::class);
     }
 }

@@ -15,8 +15,8 @@ class CreateOfferUserTable extends Migration
     {
         Schema::create('offer_user', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigInteger('offer_id')->unsigned();
-            $table->bigInteger('user_id')->unsigned();
+            $table->bigInteger('offer_id')->nullable()->unsigned();
+            $table->bigInteger('user_id')->nullable()->unsigned();
             $table->foreign('offer_id')->references('id')->on('offer')->onDelete('cascade');;
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('code', 16)->unique();
