@@ -73,7 +73,7 @@ features:
     
 ```
 ### A tener en cuenta
-En ``folders:`` se define donde estrá ubicado el directorio local (nustro ordenador) y el remoto (la máquina virtual).
+En ``folders:`` se define donde estará ubicado el directorio local (nustro ordenador) y el remoto (la máquina virtual).
 Por esa razón en ``map:`` se indica donde estara nuestro directorio local por lo tanto debe existir en nuetro ordenador,
 en mi ejemplo el directorio se ubica en el home del usuario.
 Para crear el directorio ejecute los siguientes comandos:
@@ -90,7 +90,7 @@ Una vez confiurado el fichero ``Homestead.yaml`` iniciaremos Homestead con el si
 vagrant up
 ```
 
-Por otra parte, debemos añadir a nuestro host la ip configurada en el archivo Homestead.yaml , en ununtu/mack se 
+Por otra parte, debemos añadir a nuestro host la ip configurada en el archivo Homestead.yaml , en ubuntu/mac se 
 encuentra en ``/etc/hosts``, en windows se ecnuentra en ``C:\Windows\System32\Drivers\etc``, debemos poner en el 
 archivo **hosts** lo siguiente:
 
@@ -99,7 +99,7 @@ Esta es la ip configurada en el archivo Homestead.yaml
 192.168.10.10 hotelinking.test
 ```
 
-Para acceder via ssh, debemos introducir ``vagrant shh`` dentro del directorio donde hemos clonado el 
+Para acceder via ssh, debemos introducir ``vagrant ssh`` dentro del directorio donde hemos clonado el 
 repositiorio de Homestead.
 
 
