@@ -7,7 +7,7 @@ instalar PHP, un servidor web y cualquier otro software de servidor en su máqui
 Para poder ejecutar el entonrno necesitaremos:
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads): En windows se debe activar virtualizacion por hardware en la 
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads): En windows se debe la activar virtualizacion por hardware en la 
 bios para que funcione VirtualBox
 
 Primero debemos importar la caja de Homestead, para ello ejecutaremos el siguiente comando:
