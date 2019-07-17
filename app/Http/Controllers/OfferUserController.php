@@ -81,7 +81,7 @@ class OfferUserController extends Controller
     }
 
     /**
-     * Check if the code exists in DB.
+     * Check if the code exists in the database.
      *
      * @param string $code
      * @return bool
