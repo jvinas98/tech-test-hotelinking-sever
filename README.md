@@ -1,4 +1,4 @@
-# Manual de uso
+# Manual de instalación
 
 Para arrancar el servidor utilizaremos [Homestead](https://laravel.com/docs/5.8/homestead).
 Laravel Homestead es un paquete [Vagrant](https://www.vagrantup.com/) preempaquetado oficial que ofrece un entorno de desarrollo sin necesidad de 
